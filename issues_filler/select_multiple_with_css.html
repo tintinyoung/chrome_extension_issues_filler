@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link href="css/fSelect.css" rel="stylesheet" type="text/css">
+		<title>用select+css实现下拉多选框</title>
+	</head>
+	<body>
+		<select class="demo" multiple="multiple">  
+			<optgroup label="Languages">  
+				<option value="cp">C++</option>  
+				<option value="cs">C#</option>  
+				<option value="oc">Object C</option>  
+				<option value="c">C</option>  
+			</optgroup>  
+			<optgroup label="Scripts">  
+				<option value="js">JavaScript</option>  
+				<option value="php">PHP</option>  
+				<option value="asp">ASP</option>  
+				<option value="jsp">JSP</option>  
+			</optgroup>  
+		</select>  
+
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/fSelect.js"></script>
+		<script>
+		$(function() {
+				$('.demo').fSelect();
+			});
+		</script>
+	</body>
+</html>

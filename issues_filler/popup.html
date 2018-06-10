@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/fSelect.css" rel="stylesheet" type="text/css">
+	<title>Codex atuo filler</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	body {
+		font-family: 'Microsoft Yahei';
+		width: 500px;
+		min-height: 100px;
+	}
+	a {margin-right: 10px;}
+	</style>
+</head>
+<body>
+	<form id="form" action="#" method="POST">
+		<input id="agree" type="radio" name="choice" value="yes" />
+		<label for="agree">Yes</label>
+		<input id="disagree" type="radio" name="choice" value="no" />
+		<label for="disagree">No</label>
+		<input id="add" type="submit" value="Add" />
+		<button id="clearChecked">Clear Checked Items</button>
+		<button id="clear">Clear All</button>
+	</form>
+	<select class="demo" multiple="multiple">  
+	<optgroup label="Languages">  
+			<option value="cp">C++</option>  
+			<option value="cs">C#</option>  
+			<option value="oc">Object C</option>  
+			<option value="c">C</option>  
+		</optgroup>  
+		<optgroup label="Scripts">  
+			<option value="js">JavaScript</option>  
+			<option value="php">PHP</option>  
+			<option value="asp">ASP</option>  
+			<option value="jsp">JSP</option>  
+		</optgroup>  
+	</select>
+</body>
+</html>
